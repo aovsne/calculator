@@ -1,8 +1,10 @@
 .start{
   text-align:center;
+  background-color:#eeeeee;
 }
-.calculate{
-  text-align: center
+.didi{
+  text-align: center;
+  
 }
 
 input{
@@ -25,4 +27,5 @@ form.sansui{
   width:80%;
   margin-left:30px;
   box-shadow:5px 5px 5px grey;
+  margin-top:40px;
 }
