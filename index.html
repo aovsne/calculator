@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>zodiac sign</title>
+	<link rel="shortcut icon" href="#">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/animate.css">
+	<link href="https://fonts.googleapis.com/css?family=Audiowide" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+	<div class="container">
+		<div class="start col-sm-12">
+			<h1>ITS A NEW DAY, NEW OPPORTUNITY, SO LIVE IT AT YOUR FULLEST!!</h1>
+			<h2 id="wish"></h2>
+		</div>
+		<div class="calculate col-sm-4 col-sm-offset-4">
+			<form class="sansui" name="calculator">
+				<input class="result" placeholder="0" name="display"><br>
+				<input type="button" value="9" onClick="document.calculator.display.value += '9'">
+				<input type="button" value="8" onClick="document.calculator.display.value += '8'">
+				<input type="button" value="7" onClick="document.calculator.display.value += '7'">
+				<input type="button" value="/" onClick="btnDiv()"><br>
+				<input type="button" value="6" onClick="document.calculator.display.value += '6'">
+				<input type="button" value="5" onClick="document.calculator.display.value += '5'">
+				<input type="button" value="4" onClick="document.calculator.display.value += '4'">
+				<input type="button" value="*" onClick="btnMul()"><br>
+				<input type="button" value="3" onClick="document.calculator.display.value += '3'">
+				<input type="button" value="2" onClick="document.calculator.display.value += '2'">
+				<input type="button" value="1" onClick="document.calculator.display.value += '1'">
+				<input type="button" value="-" onClick="btnSubs()"><br>
+				<input type="button" value="0" onClick="document.calculator.display.value += '0'">
+				<input type="button" value="." onClick="document.calculator.display.value += '.'">
+				<input type="button" value="=" onClick="btnEql()">
+				<input type="button" value="+" onClick="btnAdd()"><br>
+				<input type="button" value="C" onClick="btnClr()">
+
+			</form>
+		</div>
+	</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

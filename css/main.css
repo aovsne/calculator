@@ -1,0 +1,28 @@
+.start{
+  text-align:center;
+}
+.calculate{
+  text-align: center
+}
+
+input{
+  height:40px;
+  width:40px;
+  margin:5px 2px;
+  border-radius:5px;
+  background-color:white;
+  border:none;
+}
+input.result{
+  width:190px;
+  background-color:white;
+}
+form.sansui{
+  background-color:#9edfd2;
+  height:350px;
+  padding:10px;
+  border-radius:10px;
+  width:80%;
+  margin-left:30px;
+  box-shadow:5px 5px 5px grey;
+}
